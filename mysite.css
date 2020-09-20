@@ -95,7 +95,9 @@ nav {
 
 .portfolio-box-2 {
   width: 920px;
-  margin: 0 auto 90px;
+  margin: 0 auto;
+  padding: 0 0 90px 0;
+  color: #eceff1;
 }
 
 .portfolio-img {
@@ -108,31 +110,19 @@ nav {
   float: left;
 }
 
-.portfolio-box-2 > div:nth-child(1) {
-  background-image: url(img/sketch.jpg);
-}
-
-.portfolio-box-2 > div:nth-child(2) {
-  background-image: url(img/websuku.png);
-}
-
-.portfolio-box-2 > div:nth-child(3) {
-  background-image: url(img/write.jpg);
+.portfolio-box-2 > img:nth-child(3) {
   margin-right: 0;
 }
 
-.portfolio-box-2 > div:nth-child(4) {
-  background-image: url(img/webcamp.png);
+.portfolio-box-2 > img:nth-child(4) {
   margin-bottom: 0;
 }
 
-.portfolio-box-2 > div:nth-child(5) {
-  background-image: url(img/talk.jpg);
+.portfolio-box-2 > img:nth-child(5) {
   margin-bottom: 0;
 }
 
-.portfolio-box-2 > div:nth-child(6) {
-  background-image: url(img/webcamp-mother.png);
+.portfolio-box-2 > img:nth-child(6) {
   margin-right: 0;
   margin-bottom: 0;
 }
@@ -377,4 +367,11 @@ nav {
 }
 
 .footer {
+  background-color: #ec715f;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  color: #fafafa;
+  font-size: 16px;
 }
