@@ -196,7 +196,7 @@ nav {
   margin: 0 auto;
 }
 
-i {
+.feature-content-img > i {
   margin: 0 auto;
 }
 
@@ -294,6 +294,86 @@ i {
 }
 
 .contact {
+  width: 100%;
+}
+
+.contact-box-1 {
+  width: 800px;
+  margin: auto;
+  padding: 90px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-top {
+  margin: 0 auto 8px;
+  font-size: 32px;
+  color: #000;
+}
+
+.contact-bar {
+  height: 3px;
+  width: 70px;
+  margin: 0 auto 30px;
+  background-color: #ec715f;
+}
+
+.contact-text {
+  margin: 0 auto 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.contact-box-1 > div:nth-child(5) {
+  margin-bottom: 30px;
+}
+
+.contact-box-2 {
+  width: 800px;
+  margin: auto;
+  padding: 0 0 90px 0;
+  display: flex;
+}
+
+.contact-address {
+  width: 400px;
+  padding-left: 100px;
+}
+
+.contact-mail-top {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-mail-text {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.contact-tel-top {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-tel-number {
+  font-size: 16px;
+  color: #000;
+}
+
+.contact-SNS {
+  width: 400px;
+  padding-left: 100px;
+}
+
+.contact-SNS-top {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-SNS-icons {
+  font-size: 50px;
+  margin-right: 20px;
 }
 
 .footer {
